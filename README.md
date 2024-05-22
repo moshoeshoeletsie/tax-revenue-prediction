@@ -41,3 +41,15 @@ The tuned model is then evaluated and compared with the initial model.
 
 10. Saving the Model
 Finally, we save the trained model and the scaler to disk using the pickle library.
+
+#Usage
+Prerequisites
+Ensure you have the following packages installed:
+
+pip install pandas numpy matplotlib seaborn scipy scikit-learn pickle
+
+#Running the Project
+Data Preparation:
+
+Ensure the dataset (Dataset RSL.csv) is in the working directory.
+Execute the code to preprocess data, train models, and save them.
